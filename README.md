@@ -12,21 +12,15 @@ Linux-based operating system
 GCC compiler
 Basic knowledge of using terminal and make commands
 Building and Running the Server
-Clone the repository:
 
-bash
-Copy code
+Clone the repository:
 git clone https://github.com/kbanushi/Custom-HTTP-Server.git
 cd your-repo
+
 Build the server:
-
-bash
-Copy code
 make
-Run the server:
 
-bash
-Copy code
+Run the server:
 Replace <port> with the port number you want the server to listen on (e.g., 8080) in the port.txt file
 
 Testing the Application
@@ -35,9 +29,6 @@ The repository includes a test script (runtests.sh) and a folder (tests/) contai
 Ensure the server is running on a separate terminal or in the background.
 
 Run the tests:
-
-bash
-Copy code
 ./runtests.sh
 This script will execute various tests located in the tests/ folder to verify different functionalities of the server.
 
